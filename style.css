@@ -1,3 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  background-color: gray;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+.wide-limit {
+  min-width: 800px;
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #1f2937;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  padding: 24px 0px;
+  gap: 16px;
+}
+
+.header .logo {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
+  margin-right: auto;
+}
+
+.header .link {
+  color: #e5e7eb;
+  font-size: 18px;
+  text-decoration: none;
 }
