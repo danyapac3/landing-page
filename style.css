@@ -5,6 +5,7 @@
 
 body {
   font-family: "Roboto", Arial, sans-serif;
+  background-color: rgb(242, 242, 242);
 }
 
 .width-limit {
@@ -90,7 +91,6 @@ body {
 }
 
 .info {
-  background-color: rgb(242, 242, 242);
   padding-bottom: 120px;
   text-align: center;
 }
@@ -144,4 +144,35 @@ body {
   font-weight: 700;
   text-align: right;
   margin-top: 8px;
+}
+
+.action-call {
+  padding: 120px 0;
+}
+
+.action-call .dialog {
+  background-color: #3882f6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 80px;
+  border-radius: 8px;
+}
+
+.action-call h3 {
+  color: #f9faf8;
+}
+
+.action-call p {
+  color: #e5e7eb;
+}
+
+.action-call button {
+  background-color: #3882f6;
+  font-size: 18px;
+  font-weight: 700;
+  color: #f9faf8;
+  padding: 8px 24px;
+  border: solid #f9faf8 2px;
+  border-radius: 8px;
 }
