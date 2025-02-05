@@ -88,3 +88,36 @@ body {
   width: 100%;
   aspect-ratio: 2/1;
 }
+
+.info {
+  background-color: rgb(242, 242, 242);
+  padding-bottom: 120px;
+  text-align: center;
+}
+
+.info h2{
+  font-size: 36px;
+  color: #1f2937;
+  text-align: center;
+  height: 120px;
+  line-height: 120px;
+}
+
+.info .items {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.info .item {
+  width: 150px;
+  flex: 0 0 auto;
+}
+
+.info .item img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border: solid #3882f6 5px;
+  border-radius: 16px;
+}
