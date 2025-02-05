@@ -176,3 +176,10 @@ body {
   border: solid #f9faf8 2px;
   border-radius: 8px;
 }
+
+.footer {
+  line-height: 80px;
+  text-align: center;
+  background-color: #1f2937;
+  color: #f9faf8;
+}
