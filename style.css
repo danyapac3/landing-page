@@ -8,8 +8,7 @@ body {
 }
 
 .wide-limit {
-  min-width: 800px;
-  width: 1280px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -20,13 +19,13 @@ body {
 .header .container {
   display: flex;
   align-items: center;
-  padding: 24px 0px;
+  padding: 18px 0px;
   gap: 16px;
 }
 
 .header .logo {
   color: #f9faf8;
-  font-size: 48px;
+  font-size: 36px;
   font-weight: 900;
   margin-right: auto;
 }
@@ -35,4 +34,57 @@ body {
   color: #e5e7eb;
   font-size: 18px;
   text-decoration: none;
+}
+
+.hero {
+  background-color: #1f2937;
+  padding: 100px 0;
+}
+
+.hero .main-text {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.hero .secondary-text {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.hero .button {
+  background-color: #3882f6;
+  font-size: 18px;
+  font-weight: 700;
+  color: #f9faf8;
+  padding: 8px 24px;
+  border: none;
+  border-radius: 8px;
+}
+
+.hero .container {
+  display: flex;
+  gap: 48px;
+}
+
+.hero .left, .hero .right {
+  flex: 1;
+}
+
+.hero .left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.hero .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero img {
+  width: 100%;
+  aspect-ratio: 2/1;
 }
